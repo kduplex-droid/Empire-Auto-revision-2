@@ -1,0 +1,14 @@
+body {background:#000;color:#fff;font-family:Arial;margin:0}
+header{display:flex;justify-content:space-between;padding:20px;background:#000;position:fixed;width:100%}
+.logo{color:#0a84ff;font-weight:bold}
+.hero{height:100vh;position:relative}
+.hero img{width:100%;height:100%;object-fit:cover;filter:brightness(40%)}
+.hero-text{position:absolute;top:50%;left:10%;transform:translateY(-50%)}
+.car-3d{padding:100px;text-align:center}
+#car-container{height:500px}
+.about{display:flex;padding:100px}
+.products{padding:100px;text-align:center}
+.grid{display:flex;gap:20px}
+.card{background:#111;padding:20px;flex:1}
+.whatsapp-btn{position:fixed;bottom:20px;right:20px;width:60px;height:60px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.whatsapp-btn img{width:35px}
